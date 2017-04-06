@@ -99,9 +99,9 @@ public class GED {
         char s_i; // ith character of s
         char t_j; // jth character of t
         double cost; // cost
-        double replaceCost = 2;
-        double deleteCost = 2;
-        double insertCost = 2;
+        double replaceCost = 1;
+        double deleteCost = 1;
+        double insertCost = 1;
 
 
         n = s.length();
